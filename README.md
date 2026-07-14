@@ -52,7 +52,7 @@ Review the output carefully. Once you're confident, set `DRY_RUN = False` in the
 python3 send_school_outreach.py
 ```
 If the run is interrupted, just run it again — schools already logged in `sent_log.csv` are skipped automatically, so nothing gets emailed twice.
-![App Ui=I](1.png)
+![App Ui=I](Screenshot 2026-07-14 174511.png)
 Output
 Console output: a live summary of what's being sent, skipped, or has already been sent, plus a final list of schools that need manual email lookup.
 `sent_log.csv`: a running log of every send attempt with timestamp and status, used to make re-runs idempotent.
